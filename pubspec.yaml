@@ -1,0 +1,50 @@
+name: kts
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.11.0"
+
+  flutter_lints: ^2.0.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/launcher.png"
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Segoeui
+      fonts:
+        - asset: assets/fonts/segoeui.ttf
+          weight: 200
+        - asset: assets/fonts/segoeuii.ttf
+          weight: 300
+        - asset: assets/fonts/segoeuisl.ttf
+          weight: 400
+
+    - family: CabinSketch
+      fonts:
+        - asset: assets/fonts/CabinSketch-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/CabinSketch-Bold.ttf
+          weight: 700
+        
